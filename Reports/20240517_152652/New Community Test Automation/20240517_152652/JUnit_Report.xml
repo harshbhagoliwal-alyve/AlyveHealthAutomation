@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Community Test Automation" time="65.052" tests="1" failures="0" errors="0">
+   <testsuite name="New Community Test Automation" tests="1" failures="0" errors="0" time="65.052" skipped="0" timestamp="17-05-2024T15:26:53" hostname="harshbhagoliwal - 192.168.1.8" id="Test Suites/New Community Test Automation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/harshbhagoliwal/Desktop/AlyveHealthAutomation/Reports/20240517_152652/New Community Test Automation/20240517_152652"/>
+         <property name="logFiles" value="/Users/harshbhagoliwal/Desktop/AlyveHealthAutomation/Reports/20240517_152652/New Community Test Automation/20240517_152652/execution0.log"/>
+         <property name="attachments" value="Screenshots/keyes/keyes-Dashboard.png, Screenshots/keyes/keyes-All_Programs.png, Screenshots/keyes/keyes-My_Purchases.png, Screenshots/keyes/keyes-Insights.png, Screenshots/keyes/keyes-Challenges.png, Screenshots/keyes/keyes-Rewards.png, Screenshots/keyes/keyes-ToDo.png"/>
+         <property name="hostName" value="harshbhagoliwal - 192.168.1.8"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="27ebc2d0121107d5d8f9c314d4c018bd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Community Test" time="65.0" classname="Test Cases/Community Test" status="PASSED">
+         <system-out><![CDATA[17-05-2024T15:26:53 - [TEST_CASE][PASSED] - Test Cases/Community Test: Test Cases/Community Test
+
+17-05-2024T15:26:53 - [TEST_STEP][PASSED] - openBrowser("https://alyve-web-v2-uat.vercel.app/"): Browser is opened with url: 'https://alyve-web-v2-uat.vercel.app/'
+
+17-05-2024T15:26:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T15:26:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T15:26:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://alyve-web-v2-uat.vercel.app/'
+
+17-05-2024T15:26:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T15:26:56 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T15:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Get Started/button_Sign in")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Get Started/button_Sign in' is clicked on
+
+17-05-2024T15:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Get Started/button_Sign in' is clicked on
+
+17-05-2024T15:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Get Started/button_Sign in with mobile")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Get Started/button_Sign in with mobile' is clicked on
+
+17-05-2024T15:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Get Started/button_Sign in with mobile' is clicked on
+
+17-05-2024T15:26:59 - [TEST_STEP][PASSED] - setText(findTestObject("Verify Login/Page_Alyve Health - Get Started/input_Back_form-control"), "7905079227"): Text '7905079227' is set on object 'Object Repository/Verify Login/Page_Alyve Health - Get Started/input_Back_form-control'
+
+17-05-2024T15:27:00 - [MESSAGE][PASSED] - Text '7905079227' is set on object 'Object Repository/Verify Login/Page_Alyve Health - Get Started/input_Back_form-control'
+
+17-05-2024T15:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Get Started/button_Get OTP on mobile"), STOP_ON_FAILURE): Object: 'Object Repository/Verify Login/Page_Alyve Health - Get Started/button_Get OTP on mobile' is clicked on
+
+17-05-2024T15:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Get Started/button_Get OTP on mobile' is clicked on
+
+17-05-2024T15:27:00 - [TEST_STEP][PASSED] - setText(findTestObject("Verify Login/Page_Alyve Health - Get Started/input_password"), "123456"): Text '123456' is set on object 'Object Repository/Verify Login/Page_Alyve Health - Get Started/input_password'
+
+17-05-2024T15:27:02 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Verify Login/Page_Alyve Health - Get Started/input_password'
+
+17-05-2024T15:27:02 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/button_Got it"), STOP_ON_FAILURE): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/button_Got it' is clicked on
+
+17-05-2024T15:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/button_Got it' is clicked on
+
+17-05-2024T15:27:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_Home")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Home' is visible
+
+17-05-2024T15:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Home' is visible
+
+17-05-2024T15:27:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_All Programs")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_All Programs' is visible
+
+17-05-2024T15:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_All Programs' is visible
+
+17-05-2024T15:27:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_Challenges")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Challenges' is visible
+
+17-05-2024T15:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Challenges' is visible
+
+17-05-2024T15:27:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_Dashboard")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Dashboard' is visible
+
+17-05-2024T15:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Dashboard' is visible
+
+17-05-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_Insights")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Insights' is visible
+
+17-05-2024T15:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Insights' is visible
+
+17-05-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_My Purchases")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_My Purchases' is visible
+
+17-05-2024T15:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_My Purchases' is visible
+
+17-05-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_Rewards")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Rewards' is visible
+
+17-05-2024T15:27:12 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Rewards' is visible
+
+17-05-2024T15:27:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Verify Login/Page_Alyve Health - Home/p_To Do")): Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_To Do' is visible
+
+17-05-2024T15:27:13 - [MESSAGE][PASSED] - Object 'Object Repository/Verify Login/Page_Alyve Health - Home/p_To Do' is visible
+
+17-05-2024T15:27:13 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T15:27:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T15:27:17 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/Dashboard.png"): Taking screenshot successfully
+
+17-05-2024T15:27:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-Dashboard.png]]
+
+17-05-2024T15:27:18 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/Page_Alyve Health - Home/p_All Programs")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/Page_Alyve Health - Home/p_All Programs' is clicked on
+
+17-05-2024T15:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/Page_Alyve Health - Home/p_All Programs' is clicked on
+
+17-05-2024T15:27:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Alyve_objects/Page_Alyve Health - All Programs/p_Cashless - Alyve Health"), "Cashless - Alyve Health"): Actual text and expected text of test object 'Object Repository/Alyve_objects/Page_Alyve Health - All Programs/p_Cashless - Alyve Health' are matched.
+
+17-05-2024T15:27:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Alyve_objects/Page_Alyve Health - All Programs/p_Cashless - Alyve Health' are matched.
+
+17-05-2024T15:27:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+17-05-2024T15:27:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+17-05-2024T15:27:27 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/All_Programs.png"): Taking screenshot successfully
+
+17-05-2024T15:27:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-All_Programs.png]]
+
+17-05-2024T15:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/p_My Purchases")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_My Purchases' is clicked on
+
+17-05-2024T15:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_My Purchases' is clicked on
+
+17-05-2024T15:27:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T15:27:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T15:27:35 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/My_Purchases.png"): Taking screenshot successfully
+
+17-05-2024T15:27:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-My_Purchases.png]]
+
+17-05-2024T15:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/p_Insights")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Insights' is clicked on
+
+17-05-2024T15:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Insights' is clicked on
+
+17-05-2024T15:27:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-05-2024T15:27:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-05-2024T15:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Alyve_objects/Page_Alyve Health - Insights/svg_Apply_MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1m6kt38")): Object: 'Object Repository/Alyve_objects/Page_Alyve Health - Insights/svg_Apply_MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1m6kt38' is clicked on
+
+17-05-2024T15:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Alyve_objects/Page_Alyve Health - Insights/svg_Apply_MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1m6kt38' is clicked on
+
+17-05-2024T15:27:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+17-05-2024T15:27:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+17-05-2024T15:27:43 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/Insights.png"): Taking screenshot successfully
+
+17-05-2024T15:27:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-Insights.png]]
+
+17-05-2024T15:27:43 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/p_Challenges")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Challenges' is clicked on
+
+17-05-2024T15:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Challenges' is clicked on
+
+17-05-2024T15:27:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T15:27:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T15:27:48 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/Challenges.png"): Taking screenshot successfully
+
+17-05-2024T15:27:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-Challenges.png]]
+
+17-05-2024T15:27:48 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/p_Rewards")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Rewards' is clicked on
+
+17-05-2024T15:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_Rewards' is clicked on
+
+17-05-2024T15:27:49 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T15:27:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T15:27:53 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/Rewards.png"): Taking screenshot successfully
+
+17-05-2024T15:27:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-Rewards.png]]
+
+17-05-2024T15:27:53 - [TEST_STEP][PASSED] - click(findTestObject("Verify Login/Page_Alyve Health - Home/p_To Do")): Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_To Do' is clicked on
+
+17-05-2024T15:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Verify Login/Page_Alyve Health - Home/p_To Do' is clicked on
+
+17-05-2024T15:27:53 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+17-05-2024T15:27:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+17-05-2024T15:27:57 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Screenshots/ToDo.png"): Taking screenshot successfully
+
+17-05-2024T15:27:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+17-05-2024T15:27:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|Screenshots/keyes/keyes-ToDo.png]]
+
+17-05-2024T15:27:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-05-2024T15:27:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-05-2024T15:26:53 - [TEST_SUITE][PASSED] - New Community Test Automation: Test Cases/Community Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
