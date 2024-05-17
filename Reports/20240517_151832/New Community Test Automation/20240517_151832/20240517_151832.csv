@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Community Test Automation,Chrome 124.0.0.0,,,17-05-2024 15:18:33,17-05-2024 15:19:38,1m - 4.826s,PASSED
+,,,,,,,
+Test Cases/Community Test,Chrome 124.0.0.0,,,17-05-2024 15:18:34,17-05-2024 15:19:38,1m - 4.772s,PASSED
+"openBrowser(""https://alyve-web-v2-uat.vercel.app/"")",Chrome 124.0.0.0,,,17-05-2024 15:18:34,17-05-2024 15:18:36,2.155s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 15:18:36,17-05-2024 15:18:36,0.477s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Get Started/button_Sign in""))",Chrome 124.0.0.0,,,17-05-2024 15:18:36,17-05-2024 15:18:39,2.667s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Get Started/button_Sign in with mobile""))",Chrome 124.0.0.0,,,17-05-2024 15:18:39,17-05-2024 15:18:39,0.490s,PASSED
+"setText(findTestObject(""Verify Login/Page_Alyve Health - Get Started/input_Back_form-control""), ""7905079227"")",Chrome 124.0.0.0,,,17-05-2024 15:18:39,17-05-2024 15:18:40,0.802s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Get Started/button_Get OTP on mobile""), STOP_ON_FAILURE)",Chrome 124.0.0.0,,,17-05-2024 15:18:40,17-05-2024 15:18:41,0.485s,PASSED
+"setText(findTestObject(""Verify Login/Page_Alyve Health - Get Started/input_password""), ""123456"")",Chrome 124.0.0.0,,,17-05-2024 15:18:41,17-05-2024 15:18:43,1.860s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/button_Got it""), STOP_ON_FAILURE)",Chrome 124.0.0.0,,,17-05-2024 15:18:43,17-05-2024 15:18:50,7.207s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Home""))",Chrome 124.0.0.0,,,17-05-2024 15:18:50,17-05-2024 15:18:51,1.083s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_All Programs""))",Chrome 124.0.0.0,,,17-05-2024 15:18:51,17-05-2024 15:18:51,0.243s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Challenges""))",Chrome 124.0.0.0,,,17-05-2024 15:18:51,17-05-2024 15:18:51,0.242s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Dashboard""))",Chrome 124.0.0.0,,,17-05-2024 15:18:51,17-05-2024 15:18:52,0.240s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Insights""))",Chrome 124.0.0.0,,,17-05-2024 15:18:52,17-05-2024 15:18:52,0.243s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_My Purchases""))",Chrome 124.0.0.0,,,17-05-2024 15:18:52,17-05-2024 15:18:52,0.240s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Rewards""))",Chrome 124.0.0.0,,,17-05-2024 15:18:52,17-05-2024 15:18:52,0.246s,PASSED
+"verifyElementVisible(findTestObject(""Verify Login/Page_Alyve Health - Home/p_To Do""))",Chrome 124.0.0.0,,,17-05-2024 15:18:52,17-05-2024 15:18:53,0.239s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 15:18:53,17-05-2024 15:18:57,4.013s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/Dashboard.png"")",Chrome 124.0.0.0,,,17-05-2024 15:18:57,17-05-2024 15:18:58,1.470s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/Page_Alyve Health - Home/p_All Programs""))",Chrome 124.0.0.0,,,17-05-2024 15:18:58,17-05-2024 15:18:58,0.277s,PASSED
+"verifyElementText(findTestObject(""Alyve_objects/Page_Alyve Health - All Programs/p_Cashless - Alyve Health""), ""Cashless - Alyve Health"")",Chrome 124.0.0.0,,,17-05-2024 15:18:58,17-05-2024 15:19:05,7.125s,PASSED
+delay(2),Chrome 124.0.0.0,,,17-05-2024 15:19:05,17-05-2024 15:19:07,2.005s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/All_Programs.png"")",Chrome 124.0.0.0,,,17-05-2024 15:19:07,17-05-2024 15:19:11,3.488s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/p_My Purchases""))",Chrome 124.0.0.0,,,17-05-2024 15:19:11,17-05-2024 15:19:11,0.273s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 15:19:11,17-05-2024 15:19:15,4.009s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/My_Purchases.png"")",Chrome 124.0.0.0,,,17-05-2024 15:19:15,17-05-2024 15:19:16,0.940s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Insights""))",Chrome 124.0.0.0,,,17-05-2024 15:19:16,17-05-2024 15:19:16,0.288s,PASSED
+delay(3),Chrome 124.0.0.0,,,17-05-2024 15:19:16,17-05-2024 15:19:19,3.007s,PASSED
+"click(findTestObject(""Alyve_objects/Page_Alyve Health - Insights/svg_Apply_MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1m6kt38""))",Chrome 124.0.0.0,,,17-05-2024 15:19:19,17-05-2024 15:19:20,0.273s,PASSED
+delay(3),Chrome 124.0.0.0,,,17-05-2024 15:19:20,17-05-2024 15:19:23,3.007s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/Insights.png"")",Chrome 124.0.0.0,,,17-05-2024 15:19:23,17-05-2024 15:19:23,0.510s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Challenges""))",Chrome 124.0.0.0,,,17-05-2024 15:19:23,17-05-2024 15:19:23,0.274s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 15:19:23,17-05-2024 15:19:27,4.004s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/Challenges.png"")",Chrome 124.0.0.0,,,17-05-2024 15:19:27,17-05-2024 15:19:28,0.749s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/p_Rewards""))",Chrome 124.0.0.0,,,17-05-2024 15:19:28,17-05-2024 15:19:29,0.265s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 15:19:29,17-05-2024 15:19:33,4.003s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/Rewards.png"")",Chrome 124.0.0.0,,,17-05-2024 15:19:33,17-05-2024 15:19:33,0.669s,PASSED
+"click(findTestObject(""Verify Login/Page_Alyve Health - Home/p_To Do""))",Chrome 124.0.0.0,,,17-05-2024 15:19:33,17-05-2024 15:19:33,0.265s,PASSED
+delay(4),Chrome 124.0.0.0,,,17-05-2024 15:19:33,17-05-2024 15:19:37,4.005s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshots/ToDo.png"")",Chrome 124.0.0.0,,,17-05-2024 15:19:37,17-05-2024 15:19:38,0.643s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,17-05-2024 15:19:38,17-05-2024 15:19:38,0.178s,PASSED

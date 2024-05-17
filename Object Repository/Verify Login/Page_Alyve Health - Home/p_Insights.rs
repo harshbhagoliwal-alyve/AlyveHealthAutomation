@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Insights</name>
+   <tag></tag>
+   <elementGuidId>5a953bf6-f9d2-4e0f-8655-a6a24875da56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.MuiListItemButton-root.MuiListItemButton-gutters.MuiButtonBase-root.css-1029anh > div.MuiListItemText-root.css-1tsvksn > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-yb0lig > p.MuiTypography-root.MuiTypography-body1.css-1bxyjc6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[2]/div/div/nav/a[2]/div[2]/span/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Insights&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d5b9502c-a08a-437c-994b-ebbe430df2f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body1 css-1bxyjc6</value>
+      <webElementGuid>35e47fb0-3bc5-4b46-8b7a-2e8acda0b4ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Insights</value>
+      <webElementGuid>3d13121c-f389-4f6f-89e7-8d0a574d4396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthXl css-8yyeyr&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1d3bbye&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-md-2.4 css-1rh4usm&quot;]/div[@class=&quot;MuiBox-root css-c6lz7k&quot;]/div[@class=&quot;css-10jtw9x&quot;]/nav[@class=&quot;MuiList-root MuiList-padding css-1dy0ggd&quot;]/a[@class=&quot;MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-1029anh&quot;]/div[@class=&quot;MuiListItemText-root css-1tsvksn&quot;]/span[@class=&quot;MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body1 css-1bxyjc6&quot;]</value>
+      <webElementGuid>88e07255-77f3-4e7e-a020-9ff3e0b48dcb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[2]/div/div/nav/a[2]/div[2]/span/p</value>
+      <webElementGuid>01a08e4d-1aa5-4f77-841d-3fb66ae998d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='H'])[1]/following::p[5]</value>
+      <webElementGuid>29c2c957-6751-4a67-aa34-b419a0c49b59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View as Admin'])[1]/preceding::p[4]</value>
+      <webElementGuid>58a70196-466a-49e1-8d6b-7c88bca316a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Todays Goal'])[1]/preceding::p[5]</value>
+      <webElementGuid>5d0140f5-2a4f-4321-b7be-0dc5a1be0895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Insights']/parent::*</value>
+      <webElementGuid>f155a4f9-a0cd-4d57-89e8-7ef725da64c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/div[2]/span/p</value>
+      <webElementGuid>723316dd-254b-4bc4-b027-182104f7a10d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Insights' or . = 'Insights')]</value>
+      <webElementGuid>c401fe5a-d987-42a8-b22c-a07a8d8e4b84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
